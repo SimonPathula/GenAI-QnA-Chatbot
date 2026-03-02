@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "qna-chatbot"
 
