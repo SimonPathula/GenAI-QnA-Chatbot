@@ -134,26 +134,3 @@ python-dotenv
 | `LANGCHAIN_API_KEY` | Your LangSmith API key for tracing |
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👤 Author
-
-**Simon Pathula**  
-GitHub: [@SimonPathula](https://github.com/SimonPathula)
