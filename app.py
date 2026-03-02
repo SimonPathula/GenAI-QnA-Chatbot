@@ -19,10 +19,10 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 def generate_response(llm_model, temperature, max_tokens, user_input):
-    llm = OllamaLLM(model= llm_model)
+    llm = OllamaLLM(model=llm_model)
     chain = prompt | llm | StrOutputParser()
-    response = chain.invoke({"user_input" : user_input})
-    st.write(response)
+    response = chain.invoke({"user_input": user_input})
+    return response
 
 st.title("QnA Chatbot")
 
